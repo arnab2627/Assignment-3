@@ -25,13 +25,57 @@
       rel="stylesheet"
     />
     <style>
-      .sora {
-        font-family: "Sora", serif;
+      .pdp {
+        font-family: "pdp", serif;
       }
     </style>
   </head>
 <body>
+    <body class="pdp">
+        <!-- header section -->
+        <header>
+          <!-- Nav bar -->
+          <nav>
+            <div
+              class="navbar flex justify-between  border-b-[2px] border-[#179800] lg:border-none lg:px-[140px] lg:py-4"
+            >
+              <!-- lg-navbar -->
     
+              <div class="navbar-start hidden lg:flex gap-2 items-center">
+                <img src="assets/logo-header.png" alt="logo-header" />
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul
+                  class="menu menu-horizontal px-1 text-xl lg:flex font-normal gap-[2rem]"
+                >
+                  <li><a href="#">Product</a></li>
+                  
+                  <li><a href="#">Service</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-end hidden lg:flex gap-4 font-light">
+                <i class='bx bx-search-alt-2 text-2xl '></i>
+                <i class='bx bxs-cart-alt text-2xl' ></i>
+                <button
+                  class="border border-[#179800] font-normal rounded-lg py-2.5 px-7 hover:bg-[#179800] hover:border-none hover:text-white"
+                >
+                  Login
+                </button>
+                <button
+                  class="bg-[#179800] font-normal text-white rounded-lg py-2.5 px-7 border hover:border-[#179800] hover:bg-transparent hover:text-black"
+                >
+                  Register
+                </button>
+              </div>
+    
+              <!-- responsive navbar -->
+              <div class="flex lg:hidden justify-between w-full px-4 py-3">
+                <img src="./c2-assets/logo.jpg" alt="" class="w-[48px]" />
+                <i class='bx bx-menu text-[30px] text-[#179800]'></i>
+              </div>
+            </div>
+          </nav>
     
 </body>
 </html>
